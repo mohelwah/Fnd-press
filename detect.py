@@ -81,3 +81,8 @@ def is_image_in_screen(image, threshold=0.8):
 
 
 
+# capture screen as image   
+def capture_screen_as_image():
+    screen = get_screen()
+    return screen
+
